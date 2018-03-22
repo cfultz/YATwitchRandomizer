@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>What game should I play today?</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script src="/js/loading.js"></script>
+        <script src="/js/functions.js"></script>
+        <script src="/js/twitch.js"></script>
+
+
+        <link type="text/css" rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+        <div id = "bigdiv">
+                <h1 id="title"></h1>
+                <div class="center">
+                        <p id="deck"></p>
+                        <h1 id="introTitle">What is this?</h1>
+                        <p id="intro">Click the button for a random live stream of a game currently being played on Twitch.tv. Some basic information about the game is provided, as well as links to purchase it from various sources. A fr$
+                </div>
+                <br><div id="player">
+                                <iframe id="videoiFrame"  height="540" width="960" align="middle" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+                                <iframe frameborder="0" scrolling="no" id="chat_embed" height="500" width="350" align="right"></iframe>
+                <!-- <div id="twitch-embed"></div> --></div>
+                <br>
+                <button id="newGame" type = "button" data-label="Start">do it!</button>
+        </div>
+        <div class="rightbigdiv">
+                <a href="placeholder" id="gbLink"  target="_blank"><div id="giantbomb" class="button_sliding_bg">Game Info</div></a>
+                <a href="placeholder" id="twitchLink"  target="_blank"><div id="twitch" class="button_sliding_bg">More Streams</div></a>
+                <a href="placeholder" id="amazonLink"  target="_blank"><div id="amazon" class="button_sliding_bg">Buy on Amazon</div></a>
+                <a href="placeholder" id="ebayLink"  target="_blank"><div id="ebay" class="button_sliding_bg">Buy on eBay</div></a>
+        </div>
+
+
+</body>
+
+</html>
