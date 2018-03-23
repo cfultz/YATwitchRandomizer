@@ -9,7 +9,7 @@ https://github.com/verswu/YSP
 Obtain API key from https://dev.twitch.com and replace the placeholder in the twitch.js under "ENTERYOURTWITCHCLIENTIDHERE"
 
 
-# TODO:
+# TODO
  - Make mobile friendly
  - Build using HTML5 standards
  - Possibly build towards a "pwning.com" competitor/sister-site
