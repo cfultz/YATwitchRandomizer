@@ -11,3 +11,6 @@ TODO:
  - Add "Night Mode" theme
  
 If you would like to assist, make a pull request!
+
+
+Licensed under GNU General Public License v3.0
