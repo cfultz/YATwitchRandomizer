@@ -7,7 +7,7 @@ https://github.com/verswu/YSP
 TODO:
  - Make mobile friendly
  - Build using HTML5 standards
- - Possibly build towards a "pwning.com" clone
+ - Possibly build towards a "pwning.com" competitor/sister-site
  - Add "Night Mode" theme
  
 If you would like to assist, make a pull request!
