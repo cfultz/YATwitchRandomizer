@@ -14,7 +14,7 @@ $(document).ready(function() {
                         //$("#twitch-embed").attach();
                         $("#twitch-embed").show();
                         var gameNum = getRandomInt(0,500);
-                        var gameUrl = "https://api.twitch.tv/kraken/games/top?limit="+limit+"&offset="+ gameNum +"&client_id=rbnnmxsc1v3cxo90bw26tholkfdb29";
+                        var gameUrl = "https://api.twitch.tv/kraken/games/top?limit="+limit+"&offset="+ gameNum +"&client_id=ENTERYOURTWITCHCLIENTIDHERE";
 
 
                         $.getJSON(gameUrl, function(result){
@@ -35,7 +35,7 @@ $(document).ready(function() {
                                         console.log(gameName + " gbid: " + giantbombId + " twitch id: " + twitchId);
                                         if (giantbombId != 0) break;
                                 };
-                                var streamUrl = "https://api.twitch.tv/kraken/streams?game="+ gameName +"&client_id=rbnnmxsc1v3cxo90bw26tholkfdb29";
+                                var streamUrl = "https://api.twitch.tv/kraken/streams?game="+ gameName +"&client_id=ENTERYOURTWITCHCLIENTIDHERE";
                                 $.getJSON(streamUrl, function(response){
                                         streamNum = getRandomInt(0, Math.floor(response.streams.length, response._total)-1);
                                         channelUrl = response.streams[streamNum].channel.url;
