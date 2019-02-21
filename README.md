@@ -8,7 +8,6 @@ https://github.com/verswu/YSP
 
 Obtain API key from https://dev.twitch.com and replace the placeholder in the twitch.js under "ENTERYOURTWITCHCLIENTIDHERE"
 
-Working test site: https://sipnet.info
 
 
 # TODO
